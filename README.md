@@ -1,5 +1,5 @@
 # TestTurnSTUN
-this test for TURN and STUN  works on browsers, it is inspered from https://github.com/otalk/stunturncheck. 
+this test is for testing TURN and STUN on browsers, it is inspered from https://github.com/otalk/stunturncheck. 
 You have just to copy the functions on your code or console and follow the following options.
 
 #  checkServer
