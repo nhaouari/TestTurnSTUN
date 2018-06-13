@@ -1,23 +1,4 @@
 
-
-
-/**
- * 
- * @param ICEs 
- * @example
- const ICEs= [
-    {
-"url": "stun:global.stun.twilio.com:3478?transport=udp"
-},
-{
-"url": "turn:global.turn.twilio.com:3478?transport=udp",
-"username": "...",
-"credential": "..."
-}
-]
-test(ICEs)
- */
-
 async function test(ICEs) {    
     let workingICEs = 0
 
@@ -36,23 +17,6 @@ async function test(ICEs) {
 
 }
 
-
-
-
-/**
- * Check one STUN / TURN server
- * @param server  server object with  "url", "username" and "credential"
- * @param timeout time to wait to establish the connection 
- * @example
- const server={
-"url": "turn:global.turn.twilio.com:3478?transport=udp",
-"username": "ec826faa494f0fe3ced9e342c6f2d91d5014b5bb55f2b85fc9ad4817eb5228be",
-"credential": "75nGVO6Nsc3KfSza1qcEYWheaFjxdD381YlTiR+nc/4="
-}
-
-checkServer(server)
- 
- */
 
 async function checkServer  (server, timeout=5000){
 
@@ -100,8 +64,3 @@ async function getICS (url) {
         return ICEs
 }
 }
-
-
-const ICEsURL = "https://carteserver.herokuapp.com/ice"
-let ICEs = await getICS(ICEsURL)
-test(ICEs)
