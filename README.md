@@ -6,7 +6,7 @@ You have just to copy the functions on your code or console and follow the follo
 the main function is checkServer(server) to check a given server if it works
 
 server is object for example
-```
+```js
 const server={
 "url": "turn:global.turn.twilio.com:3478?transport=udp",
 "username": "ec826faa494f0fe3ced9e342c6f2d91d5014b5bb55f2b85fc9ad4817eb5228be",
@@ -18,7 +18,7 @@ checkServer(server)
 
 # checkServers 
 for example here we check the servers that comes from twilio
-```
+```js
 
 // This example works just on browsers 
 const ICEsURL = "https://carteserver.herokuapp.com/ice"
