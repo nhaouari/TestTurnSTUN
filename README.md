@@ -1,8 +1,8 @@
 # TestTurnSTUN
-this test is for testing TURN and STUN on browsers, it is inspered from https://github.com/otalk/stunturncheck. 
-You have just to copy the functions on your code or console and follow the following options.
+This test is for checking TURN and STUN on browsers, it is inspered from https://github.com/otalk/stunturncheck. 
+You have just to copy the functions on your code or on the browser console and follow the following options.
 
-#  checkServer
+##  checkServer
 the main function is checkServer(server) to check a given server if it works
 
 server is object for example
@@ -16,7 +16,7 @@ const server={
 checkServer(server)
 ```
 
-# checkServers 
+## checkServers 
 for example here we check the servers that comes from twilio
 ```js
 
