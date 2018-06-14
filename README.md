@@ -22,6 +22,6 @@ for example here we check the servers that comes from twilio
 
 // This example works just on browsers 
 const ICEsURL = "https://carteserver.herokuapp.com/ice"
-let ICEs = await getICS(ICEsURL)
+const ICEs = await getICS(ICEsURL)
 test(ICEs)
 ```
